@@ -40,6 +40,23 @@ There are 2 options below to compile our code:
 The steps below have been tested on Ubuntu Linux only:
 
 - Install [Python2.7](https://www.python.org/download/releases/2.7/)
+
+- If pyenv is not installed then install it with pyenv-installer:
+
+``` 
+$ curl https://pyenv.run | bash
+```
+
+Since Python 2.7 is quite old, we use a pyton version manager:
+
+```
+pyenv install 2.7.16
+pyenv virtualenv 2.7.16 e3df
+pyenv activate e3df
+
+```
+
+
 - Install the required third-party packages:
 ```
 	sudo apt-get install -y libhdf5-serial-dev libboost-all-dev cmake libosmesa6-dev freeglut3-dev
