@@ -74,6 +74,10 @@ pyenv activate e3df
 	cd ..
 ```
 - Install [PyTorch](http://pytorch.org/)
+
+- Make sure you have opencv installed _with_ opencv_contrib modules:
+https://towardsdatascience.com/how-to-install-opencv-and-extra-modules-from-source-using-cmake-and-then-set-it-up-in-your-pycharm-7e6ae25dbac5
+
 - Install other required third-party Python packages:
 ```
 	pip install opencv-contrib-python torchvision scikit-image cvbase pandas mmdnn dlib
