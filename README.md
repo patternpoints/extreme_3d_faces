@@ -59,7 +59,7 @@ The steps below have been tested on Ubuntu Linux only:
 - Install [PyTorch](http://pytorch.org/)
 - Install other required third-party Python packages:
 ```
-	pip install opencv-python torchvision scikit-image cvbase pandas mmdnn dlib
+	pip install opencv-contrib-python torchvision scikit-image cvbase pandas mmdnn dlib
 ```
 - Config Dlib and HDF5 path in CMakefiles.txt, if needed
 - Build C++ code
